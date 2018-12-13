@@ -15,7 +15,11 @@
                     @endif
 
                     You are logged in!
-                    <a href="">email</a>
+                    <ul>
+                        <li> <a href="\test_mail">email</a>  </li> 
+                        <li> <a href="\products">CRUD</a>  </li> 
+                    </ul>
+                    
                 </div>
             </div>
         </div>

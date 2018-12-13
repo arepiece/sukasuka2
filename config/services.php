@@ -39,5 +39,11 @@ return [
             'tolerance' => env('STRIPE_WEBHOOK_TOLERANCE', 300),
         ],
     ],
+    
+      'facebook' => [
+        'client_id' => env("FB_APP",'493909431078238'),  
+        'client_secret' => env('FACEBOOK_CLIENT_SECRET'),
+        'redirect'      => env('FACEBOOK_REDIRECT'),
+    ],
 
 ];

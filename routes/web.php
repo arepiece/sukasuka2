@@ -28,4 +28,10 @@ Route::get('/send_email', function () {
 
 Auth::routes();
 
+Route::get('/redirect', 'SocialAuthFacebookController@redirect');
+Route::get('/callback', 'SocialAuthFacebookController@callback');
+
+Route::resource('products','ProductController');
+
+
 Route::get('/home', 'HomeController@index')->name('home');
