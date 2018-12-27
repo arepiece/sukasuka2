@@ -18,6 +18,7 @@
                     <ul>
                         <li> <a href="\test_mail">email</a>  </li> 
                         <li> <a href="\products">CRUD</a>  </li> 
+                        <li> <a href="\lazada_admin_list">LAMANA</a>  </li> 
                     </ul>
                     
                 </div>
